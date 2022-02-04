@@ -6,7 +6,11 @@ puts "----------"
 
 # Your code goes here ...
 
-store1 = Store.third
+@store1 = Store.find(1)
+@store2 = Store.find(2)
+
+@store1.name = "Family Clothing Store"
+@store1.save
 
 # Exercise 2: Update the first store
 # Load the first store (with id = 1) from the database and assign it to an instance variable @store1.

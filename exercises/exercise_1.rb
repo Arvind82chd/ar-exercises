@@ -11,26 +11,10 @@ annual_revenue: 1260000,
 mens_apparel: false,
 womens_apparel: true)
 
-
-# store2 = Store.new
-# store2.name = 'Richmond'
-# store2.annual_revenue = 1260000
-# store2.mens_apparel = false
-# store2.womens_apparel = true  
-# store2.save
-
 store3 = Store.create(name: 'Gastown',
 annual_revenue: 190000,
 mens_apparel: true,
 womens_apparel: false)
-
-# store3 = Store.new
-# store3.name = 'Gastown'
-# store3.annual_revenue = 190000
-# store3.mens_apparel = true
-# store3.womens_apparel = false  
-# store3.save
-
 
 
 puts Store.count() 
